@@ -1,0 +1,31 @@
+body{
+	background: white;
+}
+
+h1 {
+		font-family: "Helvetica", Arial Rounded MT Bold, monospace;
+		/*background: red; h1 has red background */
+		font-size: 45px; /*can also do 'pt' and pixels make font bigger*/
+		line-height: 0.5em
+	}
+
+p {
+		font-family: "Avenir", monospace;
+		font-size: 10px;
+		line-height: 1em;
+	}
+
+a{
+	padding: 5px;
+	font-family: "Arial";
+	color: rgb(81,165,56);
+	font-size: 15px;
+	text-decoration: none;
+	line-height: 2em
+
+}
+
+a:hover {
+	color: black;
+	text-decoration: underline;
+}

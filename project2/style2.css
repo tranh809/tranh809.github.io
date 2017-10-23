@@ -1,0 +1,40 @@
+body{
+	background: white
+}
+h1 {
+		font-family: "Helvetica", Arial Rounded MT Bold, monospace;
+		/*background: red; h1 has red background */
+		font-size: 30px; /*can also do 'pt' and pixels make font bigger*/
+		line-height: 2em
+	}
+
+p {
+		font-family: "Arial", monospace;
+		font-size: 15px;
+		line-height: 1.5em;
+		margin-right: 330px;
+		margin-left: 330px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+
+#reference{
+	line-height: 7em;
+	margin-right: 330px;
+	margin-left: 330px;
+}
+
+
+a{
+	font-family: "Arial";
+	color: rgb(81,165,56);
+	font-size: 15px;
+	text-decoration: none;
+	line-height: 2em
+
+
+}
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
