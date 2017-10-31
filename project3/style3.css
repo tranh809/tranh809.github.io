@@ -1,0 +1,74 @@
+body{
+	background: white;
+}
+
+h1 {
+		font-family: "Helvetica", Arial Rounded MT Bold, monospace;
+		background: orange;
+		font-size: 45px; 
+		color: white;
+		font-style: italic;
+	}
+
+div.box {
+	width: 200px;
+	height: 100px;
+	background:rgb(23,62,238);
+}
+div.box :hover{
+	background: green;
+	cursor: pointer;
+}
+
+p{
+	font-family: "Helvetica", sans-serif;
+	font-size: 30px;
+	color: white; 
+	font-style: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+#box0 {
+	position: absolute;
+	top: 100px;
+	right: 50px;
+}
+
+#box1 {
+	position: absolute;
+	top: 100px;
+	left: 50px;
+
+}
+#box2 {
+	position: absolute;
+	top: 250px;
+	right: 50px;
+}
+#box3 {
+	position: absolute;
+	top: 250px;
+	left: 50px;
+}
+#box4 {
+	position: absolute;
+	top: 400px;
+	right: 50px;
+}
+#box5 {
+	position: absolute;
+	top: 400px;
+	left: 50px;
+}
+#box6{
+	position: absolute;
+	top: 550px;
+	right: 50px;
+}
+#box7 {
+	position: absolute;
+	top: 550px;
+	left: 50px;
+}
