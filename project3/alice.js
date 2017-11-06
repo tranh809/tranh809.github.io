@@ -33,9 +33,10 @@ box1.addEventListener("click", showpopup1)
 function showpopup1() {
 	var question = prompt("What's your favorite color?")
 	console.log ("here's what you entered:" + question)
+h1.style.backgroundColor = question
 
-	var answer = document.getElementById("h1").style.backgroundColor = "pink";
-	console.log("element you changed")
+	// var answer = document.getElementById("h1").style.backgroundColor = "pink";
+	// console.log("element you changed")
 }
 
 box2.addEventListener("click", showpopup2)
