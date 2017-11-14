@@ -1,0 +1,39 @@
+body{
+	background: white;
+}
+
+h1 {
+		font-family: "Courier", monospace;
+		font-style: italic;
+		font-size: 20px;
+		line-height: 1em
+	}
+p {
+	font-family: "Courier";
+	font-size: 15px;
+	line-height: 2em;
+	color: black;
+}
+
+a {
+		font-family: "Helvetica", monospace;
+		font-size: 15px;
+		line-height: 1em;
+		color: black;
+		cursor: pointer;
+	}
+
+a:hover {
+
+	color: red;
+	text-decoration: underline;
+}
+
+#next4 {
+	cursor: pointer;
+}
+ 
+#next4:hover{
+	color: red;
+	text-decoration: underline;
+}
