@@ -1,0 +1,61 @@
+
+body {
+		background-color: white;
+		font-family: "Consolas";
+		color: #181cff;
+		font-size: 20px;
+		text-decoration: underline;
+		line-height: 2em
+	}
+div {
+	display: block;
+}
+
+.title {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	position: fixed;
+	top: 20px;
+	z-index: 5000;
+}
+
+.message {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	z-index: 5000;
+}
+
+.follow {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 5000;
+}
+.box {
+	font-family: "Calibri";
+	color: black;
+	font-size: 13px;
+	position: absolute;
+	width: 400px;
+	left: 50%;
+	margin-left: -192px;
+	margin-top: 55px;
+	text-align: center;
+	line-height: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
