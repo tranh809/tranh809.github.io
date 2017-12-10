@@ -2,9 +2,9 @@
 body {
 		background-color: white;
 		font-family: "Consolas";
-		color: #181cff;
+		/*color: #181cff;*/
 		font-size: 20px;
-		text-decoration: underline;
+		/*text-decoration: underline;*/
 		line-height: 2em
 	}
 div {
@@ -12,6 +12,7 @@ div {
 }
 
 .title {
+	color: #181cff;
 	width: 100%;
 	text-align: center;
 	margin: auto;
@@ -21,13 +22,15 @@ div {
 }
 
 .message {
+	color: #181cff;
 	position: fixed;
 	top: 20px;
 	left: 20px;
 	z-index: 5000;
 }
 
-.follow {
+.about {
+	color: #181cff;
 	position: fixed;
 	top: 20px;
 	right: 20px;
@@ -45,6 +48,32 @@ div {
 	text-align: center;
 	line-height: 1em;
 }
+
+a{
+	padding: 40px;
+	line-height: 2em
+	color: #181cff;
+}
+
+a:hover{
+	color: pink;
+	text-decoration: none;
+}
+a:visited{
+	color: #181cff;
+}
+.paragraph{
+	font-family: "Consolas"
+	color: black;
+	font-size: 15px;
+	position: absolute;
+	/*text-align: center;*/
+	margin: 0px auto;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
 
 
 
